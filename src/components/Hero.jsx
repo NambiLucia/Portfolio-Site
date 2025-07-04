@@ -31,9 +31,9 @@ const Hero = () => {
         {/* Right Image or Illustration */}
         <div className="md:w-1/2 flex justify-center">
           <img
-            src="\public\GOL_3276 (1).jpg" // Replace with your actual image path
+            src="/picture.jpg" // Replace with your actual image path
             alt="Developer Image"
-            className="w-70 h-70 object-cover rounded-full shadow-lg border-4 border-teal-500"
+            className="w-64 h-64 object-cover rounded-full shadow-lg border-4 border-teal-500"
           />
         </div>
       </div>
