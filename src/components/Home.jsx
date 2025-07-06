@@ -3,6 +3,7 @@ import Nav from './Nav'
 import Hero from './Hero'
 import Footer from './Footer'
 import Projects from './Projects'
+import Skills from './Skills'
 
 function Home() {
   return (
@@ -10,7 +11,9 @@ function Home() {
       <Nav />
       <Hero />
       <Projects />
+      <Skills />
       <Footer />
+      
       
 
       

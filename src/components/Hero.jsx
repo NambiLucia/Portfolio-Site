@@ -2,7 +2,7 @@ import React from 'react';
 
 const Hero = () => {
   return (
-    <section className="bg-gray-900 text-white py-20">
+    <section className="bg-gray-900 text-white h-screen flex items-center">
       <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between">
         {/* Left Content */}
         <div className="md:w-1/2 mb-10 md:mb-0">
@@ -31,7 +31,7 @@ const Hero = () => {
         {/* Right Image or Illustration */}
         <div className="md:w-1/2 flex justify-center">
           <img
-            src="/picture.jpg" // Replace with your actual image path
+            src="/picture.jpg" 
             alt="Developer Image"
             className="w-64 h-64 object-cover rounded-full shadow-lg border-4 border-teal-500"
           />
