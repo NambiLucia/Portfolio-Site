@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,9 +13,9 @@ const Nav = () => {
 
           {/* Nav Bar */}
           <div className="hidden md:flex space-x-6">
-            <a href="#about" className="hover:text-teal-400 transition">About</a>
+            <a href="#hero" className="hover:text-teal-400 transition">About</a>
             <a href="#projects" className="hover:text-teal-400 transition">Projects</a>
-            <a href="#skills" className="hover:text-teal-400 transition">Skills</a>
+            <a href="#skills"  className="hover:text-teal-400 transition">Skills</a>
             <a href="#contact" className="hover:text-teal-400 transition">Contact</a>
           </div>
 

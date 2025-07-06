@@ -2,7 +2,7 @@ import React from 'react';
 
 const Hero = () => {
   return (
-    <section className="bg-gray-900 text-white h-screen flex items-center">
+    <section className="bg-gray-900 text-white h-screen flex items-center " id="hero">
       <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between">
         {/* Left Content */}
         <div className="md:w-1/2 mb-10 md:mb-0">

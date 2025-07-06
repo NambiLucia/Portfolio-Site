@@ -14,7 +14,7 @@ const Footer = () => {
         {/* Social Icons */}
         <div className="flex space-x-4 mt-4 md:mt-0">
           <a
-            href="https://github.com/yourusername"
+            href="https://github.com/NambiLucia/"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-teal-400 transition"
@@ -22,7 +22,7 @@ const Footer = () => {
             <FaGithub size={20} />
           </a>
           <a
-            href="https://linkedin.com/in/yourusername"
+            href="https://www.linkedin.com/in/lucia-nambi-575bba209/"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-teal-400 transition"
