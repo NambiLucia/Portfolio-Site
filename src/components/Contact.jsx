@@ -47,6 +47,7 @@ const Contact = () => {
             />
           </div>
           <textarea
+          type="message"
             placeholder="Your Message"
             rows="5"
             className="w-full p-3 rounded-md bg-gray-800 text-white border border-teal-500 focus:outline-none focus:ring-2 focus:ring-teal-500"
