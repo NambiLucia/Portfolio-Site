@@ -1,13 +1,39 @@
-import React from 'react';
+import React,{useRef} from 'react';
+import emailjs from '@emailjs/browser';
 
 const Contact = () => {
+
+  const form =useRef();
+ const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        'service_0bhkr2d',       
+        'template_5304v9x',      
+        form.current,
+        'xgDDHe3Y3s06C3Rqa'       
+      )
+      .then(
+        (result) => {
+          alert('Message sent successfully!');
+          console.log(result.text);
+        },
+        (error) => {
+          alert('Failed to send message. Please try again.');
+          console.error(error.text);
+        }
+      );
+  };
+
+
   return (
     <section className="bg-gray-900 text-white py-16 item-" id="contact">
       <div className="max-w-4xl mx-auto px-6">
         <h2 className="text-3xl md:text-4xl font-bold mb-10 text-center text-teal-400">
           Contact Me
         </h2>
-        <form className="space-y-6">
+        <form ref={form} onSubmit={sendEmail} className="space-y-6">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <input
               type="text"
