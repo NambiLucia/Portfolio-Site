@@ -12,7 +12,7 @@ const Nav = () => {
           <a href='#hero'><div className="flex-shrink-0 text-2xl font-bold text-teal-400">LN</div></a>
 
           {/* Nav Bar */}
-          <div className="hidden md:flex space-x-6">
+          <div className="hidden md:flex space-x-6 text-2xl">
             <a href="#hero" className="hover:text-teal-400 transition">About</a>
             <a href="#projects" className="hover:text-teal-400 transition">Projects</a>
             <a href="#skills"  className="hover:text-teal-400 transition">Skills</a>
@@ -24,7 +24,8 @@ const Nav = () => {
             <a
               href="/CV.pdf"
               download
-              className="bg-teal-500 hover:bg-teal-600 text-white px-4 py-2 rounded-md text-sm font-semibold transition"
+              className="bg-teal-500 hover:bg-teal-600 text-white 
+              px-4 py-2 rounded-md text-sm font-semibold transition"
             >
               Download CV
             </a>

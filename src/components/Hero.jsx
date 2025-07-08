@@ -9,7 +9,7 @@ const Hero = () => {
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
             Hi, I'm <span className="text-teal-400">Nambi Lucia</span>
           </h1>
-          <p className="text-lg text-gray-300 mb-6">
+          <p className="text-2xl text-gray-300 mb-6">
            I’m a Full-Stack Developer committed to making a difference by building solutions to local problems. My goal is to create technology designed for and by the community — local tech solutions that truly solve local challenges.</p>
           <div className="flex space-x-4">
             <a
