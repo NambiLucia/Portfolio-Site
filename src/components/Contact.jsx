@@ -17,6 +17,7 @@ const Contact = () => {
       .then(
         (result) => {
           alert('Message sent successfully!');
+          form.current.reset();
           console.log(result.text);
         },
         (error) => {
@@ -37,17 +38,19 @@ const Contact = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <input
               type="text"
+              name="name" 
               placeholder="Name"
               className="w-full p-3 rounded-md bg-gray-800 text-white border border-teal-500 focus:outline-none focus:ring-2 focus:ring-teal-500"
             />
             <input
               type="email"
+              name="email" 
               placeholder="Email"
               className="w-full p-3 rounded-md bg-gray-800 text-white border border-teal-500 focus:outline-none focus:ring-2 focus:ring-teal-500"
             />
           </div>
           <textarea
-          type="message"
+          name="message" 
             placeholder="Your Message"
             rows="5"
             className="w-full p-3 rounded-md bg-gray-800 text-white border border-teal-500 focus:outline-none focus:ring-2 focus:ring-teal-500"
