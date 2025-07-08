@@ -38,13 +38,13 @@ const Contact = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <input
               type="text"
-              name="name" 
+              name="from_name"
               placeholder="Name"
               className="w-full p-3 rounded-md bg-gray-800 text-white border border-teal-500 focus:outline-none focus:ring-2 focus:ring-teal-500"
             />
             <input
               type="email"
-              name="email" 
+              name="from_email" 
               placeholder="Email"
               className="w-full p-3 rounded-md bg-gray-800 text-white border border-teal-500 focus:outline-none focus:ring-2 focus:ring-teal-500"
             />
