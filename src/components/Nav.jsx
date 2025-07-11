@@ -5,14 +5,14 @@ const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-gray-900 text-white shadow-md fixed top-0 w-full z-50">
+    <nav className="bg-gray-900 text-white font-poppins shadow-md fixed top-0 w-full z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <a href='#hero'><div className="flex-shrink-0 text-2xl font-bold text-teal-400">LN</div></a>
+          <a href='#hero'><div className="flex-shrink-0 font-poppins text-2xl font-bold text-teal-400">LN</div></a>
 
           {/* Nav Bar */}
-          <div className="hidden md:flex space-x-6 text-2xl">
+          <div className="hidden md:flex space-x-6 text-lg">
             <a href="#hero" className="hover:text-teal-400 transition">About</a>
             <a href="#projects" className="hover:text-teal-400 transition">Projects</a>
             <a href="#skills"  className="hover:text-teal-400 transition">Skills</a>

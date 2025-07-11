@@ -27,7 +27,7 @@ const projectsData = [
 
 const Projects = () => {
   return (
-    <section className="bg-gray-900 text-white py-20 px-6" id="projects">
+    <section className="bg-gray-900 font-poppins text-white py-20 px-6" id="projects">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-5xl font-bold mb-12 text-teal-400 text-center">Projects</h2>
         <div className="grid gap-10 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
