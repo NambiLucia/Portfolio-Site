@@ -13,10 +13,10 @@ const Nav = () => {
 
           {/* Nav Bar */}
           <div className="hidden md:flex space-x-6 text-lg">
-            <a href="#hero" className="hover:text-teal-400 transition">About</a>
-            <a href="#projects" className="hover:text-teal-400 transition">Projects</a>
-            <a href="#skills"  className="hover:text-teal-400 transition">Skills</a>
-            <a href="#contact" className="hover:text-teal-400 transition">Contact</a>
+            <a href="#hero" className="hover:text-teal-400 transition duration-300 transform hover:scale-110">About</a>
+            <a href="#projects" className="hover:text-teal-400 transition duration-300 transform hover:scale-110">Projects</a>
+            <a href="#skills"  className="hover:text-teal-400 transition duration-300 transform hover:scale-110">Skills</a>
+            <a href="#contact" className="hover:text-teal-400 transition duration-300 transform hover:scale-110">Contact</a>
           </div>
 
           {/* Download CV Button */}
