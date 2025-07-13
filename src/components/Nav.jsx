@@ -22,12 +22,11 @@ const Nav = () => {
           {/* Download CV Button */}
           <div className="hidden md:block">
             <a
-              href="/CV.pdf"
-              download
+              href="#contact"
               className="bg-teal-500 hover:bg-teal-600 text-white 
               px-4 py-2 rounded-md text-sm font-semibold transition"
             >
-              Download CV
+             Request Quote
             </a>
           </div>
 
