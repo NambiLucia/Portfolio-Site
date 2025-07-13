@@ -23,7 +23,7 @@ const Skills = () => {
           {skills.map((skill, index) => (
             <div
               key={index}
-              className="bg-gray-800 text-white rounded-xl p-4 text-center font-semibold border border-teal-500 hover:bg-teal-500 hover:text-white transition"
+              className="bg-gray-800 animate-wiggle text-white rounded-xl p-4 text-center font-semibold border border-teal-500 hover:bg-teal-500 hover:text-white transition"
             >
               {skill}
             </div>
