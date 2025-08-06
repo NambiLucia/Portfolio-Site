@@ -20,7 +20,7 @@ const projectsData = [
     title: 'Buganda Yiiyo yange',
     description: 'Buganda Yiiyo, Yange – An intuitive web portal for Buganda Kingdom youth, delivering up‑to‑date news and event listings for all youth and kingdom activities.',
     demoLink: 'https://bugandayiyoyange.org/',
-    codeLink: 'https://github.com/mperwe/buganda-yiyo.git',
+    codeLink: 'https://bugandayiyoyange.org',
   },
   
 ];
