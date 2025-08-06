@@ -19,7 +19,7 @@ const Nav = () => {
             <a href="#contact" className="hover:text-teal-400 transition duration-300 transform hover:scale-110">Contact</a>
           </div>
 
-          {/* Download CV Button */}
+          
           <div className="hidden md:block">
             <a
               href="#contact"

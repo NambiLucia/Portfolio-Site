@@ -20,7 +20,7 @@ const Hero = () => {
           Contact Me
         </a>
         <a
-          href="\Resume-portfolio.pdf"
+          href="\Resume-xx.pdf"
           download
           className="border border-teal-500 text-teal-400 hover:bg-teal-500 hover:text-white px-6 py-3 rounded-md font-medium transition"
         >
